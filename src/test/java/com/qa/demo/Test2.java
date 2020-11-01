@@ -1,8 +1,11 @@
 package com.qa.demo;
 
+import org.testng.annotations.Test;
+
 public class Test2 {
 
-	public static void main(String[] args) {
+	@Test
+	public void demo2() {
 		
 		
 		System.out.println("Welcome to Git");
